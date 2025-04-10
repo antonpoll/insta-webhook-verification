@@ -14,7 +14,7 @@ export default async function handler(req, res) {
   } else if (method === 'POST') {
     const data = req.body;
 
-    const makeWebhookUrl = 'https://hook.us1.make.com/your-webhook-url'; // замени на свой
+    const makeWebhookUrl = 'https://hook.eu1.make.com/ehbop3i8k303v7ycrlviydlqcc77am03'; // замени на свой
     await fetch(makeWebhookUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
